@@ -1,0 +1,59 @@
+# Logs
+frontend/logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+frontend/node_modules
+frontend/dist
+frontend/dist-ssr
+frontend/*.local
+
+# Editor directories and files
+frontend/.vscode/*
+frontend/!.vscode/extensions.json
+frontend/.idea
+frontend/.DS_Store
+frontend/*.suo
+frontend/*.ntvs*
+frontend/*.njsproj
+frontend/*.sln
+frontend/*.sw?
+
+
+tasks/HELP.md
+tasks/target/
+tasks/.mvn/wrapper/maven-wrapper.jar
+tasks/!**/src/main/**/target/
+tasks/!**/src/test/**/target/
+
+### STS ###
+tasks/.apt_generated
+tasks/.classpath
+tasks/.factorypath
+tasks/.project
+tasks/.settings
+tasks/.springBeans
+tasks/.sts4-cache
+
+### IntelliJ IDEA ###
+tasks/.idea
+tasks/*.iws
+tasks/*.iml
+tasks/*.ipr
+
+### NetBeans ###
+tasks/nbproject/private/
+tasks/nbbuild/
+tasks/dist/
+tasks/nbdist/
+tasks/.nb-gradle/
+tasks/build/
+tasks/!**/src/main/**/build/
+tasks/!**/src/test/**/build/
+
+### VS Code ###
+tasks/.vscode/

@@ -1,0 +1,2 @@
+tasks/mvnw text eol=lf
+tasks/*.cmd text eol=crlf
